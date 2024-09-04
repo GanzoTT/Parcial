@@ -1,0 +1,5 @@
+Este es un ejemplo de archivo de texto.
+La palabra clave puede estar en diferentes lugares.
+Por ejemplo, la palabra clave se repite varias veces.
+Cada vez que decimos "clave", se cuenta como una coincidencia.
+La palabra clave también puede estar al final de la línea clave.
