@@ -1,4 +1,4 @@
-# Secuencia de pasos 4to punto
+## Secuencia de pasos 4to punto
 
 Este proyecto contiene dos implementaciones del algoritmo de la secuencia de pasos, uno en C y otro en Python.
 
@@ -32,6 +32,9 @@ Este proyecto contiene dos implementaciones del algoritmo de la secuencia de pas
 ## Ejemplo de ejecución:
 
   Introduce un número entero positivo: 6
+  
   Secuencia para 6:
+  
   6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+  
   Finalizada en 8 pasos.
