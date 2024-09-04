@@ -28,26 +28,25 @@ Este proyecto contiene un analizador que valida expresiones lambda simples usand
 3. **Compilar el archivo C generado:**
    Utiliza un compilador de C para compilar el archivo:
    ```bash
-   gcc lex.yy.c -o lambda_validator -lfl
+   gcc lex.yy.c -o a.out -lfl
    
   Aquí, -lfl es necesario para enlazar con la biblioteca Flex. Esto generará un archivo lex.yy.c.
 
 **Preparar el archivo de entrada:** 
    Crea un archivo de texto que contenga las líneas que deseas validar. Por ejemplo, guarda el siguiente contenido en un archivo llamado `archivo.txt` y `archivonovalido.txt`: 
      
-      myVar = lambda(x) : myFunction**3
-      myVar = lambda(x) : myFunction**abc
+      archivo.txt:  myVar = lambda(x) : myFunction**3
+      archivonovalido.txt:  myVar = lambda(x) : myFunction**abc
       
 4. **Ejecutar el analizador:**
    Ejecuta el programa proporcionando el archivo de entrada como argumento:
    ```bash
-   ./lambda archivo.txt
+   ./a.out archivo.txt
    
-**Ejemplo de ejecución:**
+**Ejemplo de ejecución:** 
 
-archivo.txt: ACEPTA
-
-archivonovalido.txt: NO ACEPTA
+                     archivo.txt: ACEPTA
+                     archivonovalido.txt: NO ACEPTA
 
 En este ejemplo, las primeras dos líneas son aceptadas ya que cumplen con el formato esperado, mientras que la última línea no.
 
