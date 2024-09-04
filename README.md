@@ -30,7 +30,7 @@ Este proyecto contiene dos implementaciones del algoritmo de la secuencia de pas
    python3 pasos.py
    
 ## Ejemplo de ejecución:
-
+  ```bash
   Introduce un número entero positivo: 6
   
   Secuencia para 6:
