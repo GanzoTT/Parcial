@@ -1,2 +1,0 @@
-myVar = lambda(x) : myFunction**3
-
