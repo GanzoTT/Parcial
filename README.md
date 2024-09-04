@@ -50,6 +50,56 @@ Este proyecto contiene un analizador que valida expresiones lambda simples usand
 
 En este ejemplo, las primeras dos líneas son aceptadas ya que cumplen con el formato esperado, mientras que la última línea no.
 
+# 3er punto: Contador de Palabras Clave en un Archivo
+
+Este proyecto proporciona un programa en C que cuenta las apariciones de una palabra clave específica en un archivo de texto. El programa asegura que la coincidencia sea una palabra completa y no una parte de otra palabra.
+
+## Descripción
+
+El programa lee un archivo de texto línea por línea y cuenta cuántas veces aparece una palabra clave específica. Solo se cuentan las coincidencias que son palabras completas, es decir, aquellas que están delimitadas por espacios u otros caracteres no alfabéticos.
+
+## Archivos
+
+- `palabras.c`: Código fuente en C que realiza la búsqueda y cuenta las coincidencias de la palabra clave.
+
+## Requisitos
+
+- Un compilador de C (como `gcc`)
+
+## Cómo Compilar
+
+1. **Guardar el archivo:**
+   Guarda el código en un archivo llamado `palabras.c`.
+
+2. **Compilar el código:**
+   Abre una terminal y navega al directorio donde se encuentra `palabras.c`. Luego, ejecuta:
+   ```bash
+   gcc contador_palabras.c -o contador_palabras
+
+## Cómo Ejecutar
+
+1. **Preparar el archivo de entrada:**
+   Crea un archivo de texto que contenga el texto en el que deseas buscar. Por ejemplo, guarda el siguiente contenido en un archivo llamado `archivoprueba.txt`:
+
+         Este es un ejemplo de archivo de texto.
+         La palabra clave puede estar en diferentes lugares.
+         Por ejemplo, la palabra clave se repite varias veces.
+         Cada vez que decimos "clave", se cuenta como una coincidencia.
+         La palabra clave también puede estar al final de la línea clave.
+2. **Ejecutar el programa:**
+   Ejecuta el programa proporcionando el archivo de entrada y la palabra clave como argumentos:
+
+   - Ejemplo de ejecución:
+      ```bash
+     ./palabras archivoprueba.txt clave
+
+**Salida esperada:**
+
+      La palabra 'clave' se repite 5 veces en el texto.
+
+En este ejemplo, la palabra 'clave' aparece dos veces en el archivo texto.txt.
+
+
 ## 4to punto: Secuencia de pasos 
 
 Este proyecto contiene dos implementaciones del algoritmo de la secuencia de pasos, uno en C y otro en Python.
