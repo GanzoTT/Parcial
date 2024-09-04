@@ -50,7 +50,7 @@ Este proyecto contiene un analizador que valida expresiones lambda simples usand
 
 En este ejemplo, las primeras dos líneas son aceptadas ya que cumplen con el formato esperado, mientras que la última línea no.
 
-# 3er punto: Contador de Palabras Clave en un Archivo
+## 3er punto: Contador de Palabras Clave en un Archivo
 
 Este proyecto proporciona un programa en C que cuenta las apariciones de una palabra clave específica en un archivo de texto. El programa asegura que la coincidencia sea una palabra completa y no una parte de otra palabra.
 
