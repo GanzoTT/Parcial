@@ -1,5 +1,5 @@
 # Parcial
-## Validador de Expresiones Lambda 2do punto
+## 2do punto: Validador de Expresiones Lambda 
 
 ## Descripción
 
@@ -50,7 +50,7 @@ Este proyecto contiene un analizador que valida expresiones lambda simples usand
 
 En este ejemplo, las primeras dos líneas son aceptadas ya que cumplen con el formato esperado, mientras que la última línea no.
 
-## Secuencia de pasos 4to punto
+## 4to punto: Secuencia de pasos 
 
 Este proyecto contiene dos implementaciones del algoritmo de la secuencia de pasos, uno en C y otro en Python.
 
