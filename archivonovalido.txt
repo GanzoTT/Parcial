@@ -1,0 +1,1 @@
+myVar = lambda(x) : myFunction**abc
