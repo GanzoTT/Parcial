@@ -74,7 +74,7 @@ El programa lee un archivo de texto línea por línea y cuenta cuántas veces ap
 2. **Compilar el código:**
    Abre una terminal y navega al directorio donde se encuentra `palabras.c`. Luego, ejecuta:
    ```bash
-   gcc contador_palabras.c -o contador_palabras
+   gcc palabras.c -o palabras
 
 ## Cómo Ejecutar
 
@@ -86,6 +86,7 @@ El programa lee un archivo de texto línea por línea y cuenta cuántas veces ap
          Por ejemplo, la palabra clave se repite varias veces.
          Cada vez que decimos "clave", se cuenta como una coincidencia.
          La palabra clave también puede estar al final de la línea clave.
+
 2. **Ejecutar el programa:**
    Ejecuta el programa proporcionando el archivo de entrada y la palabra clave como argumentos:
 
