@@ -1,5 +1,4 @@
-# Parcial
-## 2do punto: Validador de Expresiones Lambda 
+## Validador de Expresiones Lambda 
 
 ## Descripción
 
